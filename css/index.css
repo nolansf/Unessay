@@ -7,6 +7,7 @@
 
 .title {
     position: absolute;
+    text-align: center;
 }
 
 h1 {
@@ -15,9 +16,10 @@ h1 {
     text-decoration: underline;
 }
 
+/* landing page background */
 .bg{
     background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    background: -webkit-linear-gradient(top, #011124, #0C2340, #1C518A, #2C7BB6, #3F9AC1, #7FB8D4, #BFDCE2, #FFCDD2, #E1BEE7);
     width: 100%;
     height:100vh;
     background-attachment: fixed;
@@ -42,7 +44,7 @@ h1 {
     width: 20px;
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
-    animation: animate 20s linear infinite;
+    animation: landing 20s linear infinite;
     bottom: -150px;
     
 }
@@ -123,9 +125,30 @@ h1 {
     animation-duration: 11s;
 }
 
+/* main with animated background */
+main {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
 
 
-@keyframes animate {
+/* gradient animation */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* landing page animation */
+@keyframes landing {
 
     0%{
         transform: translateY(0) rotate(0deg);
@@ -141,29 +164,8 @@ h1 {
 
 }
 
-
 @media only screen and (max-device-width: 1024px) {
     .bg {
         background-attachment: scroll;
     }
-}
-
-/* main with animated background */
-main {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
