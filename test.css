@@ -1,0 +1,57 @@
+/* Dont Touch */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* test code start*/
+
+.main {
+    margin: 5%;
+    height: 100vw;
+}
+
+.heading {
+    line-height: 1.15;
+    font-size: 1.25em;
+}
+
+.cards:nth-child(1) {
+    height: 10%;
+}
+
+.cards:nth-child(2) {
+    height: 50%;
+}
+
+.cards .card {
+    width: 15%;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 40px #bebebe, -20px -20px 40px #ffffff;
+    padding: 5%;
+}
+
+@media only screen and (max-width: 800px) {
+    .flex {
+        display: block;
+    }
+
+    .cards .card{
+        right: 50%;
+        margin-top: 10%;
+    }
+}
+
+/* test code end*/
