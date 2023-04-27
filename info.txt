@@ -1,0 +1,39 @@
+Austin, Patrick Lucas. “Going to a Protest? How to Protect Your Digital Privacy.” Time, Time, 17 June 2020, https://time.com/5852009/protest-digital-privacy/.
+- how to protect data privacy
+
+“Data Protection.” European Data Protection Supervisor, 23 Feb. 2023, https://edps.europa.eu/data-protecti on_en. 
+- about the law, general information given by the eu government
+
+D'Mello, Yolande. “How Did We Get Here? A Brief History of the GDPR till D-Day.” AiThority, 24 May 2018, https://aithority.com/technology/analytics/how-did-we-get-here-a-brief-history-of-the-gdpr/.
+- history of gdpr
+
+“The History of the General Data Protection Regulation.” European Data Protection Supervisor, https://edps.europa.eu/data-protection/data-protection/legislation/history-general-data-protection-regulation_en. 
+- history of gdpr
+
+McKinney, India. “Digital Advertising, Consumer Privacy and More.” Electronic Frontier Foundation, 24 May 2019, https://www.eff.org/deeplinks/2019/05/digital-advertising-consumer-privacy-and-more. 
+- targeted digital ads using consumer data that is taken from the people
+- used give the the reader a reason why we need data protections
+
+“Official Legal Text.” General Data Protection Regulation (GDPR), 27 Sept. 2022, https://gdpr-info.eu/. 
+- the law being looked at
+
+“The Privacy Movement Is Not (Just) about Privacy: Street Fight.” Street Fight | The Business of Location, 16 Apr. 2020, https://streetfightmag.com/2019/09/26/the-privacy-movement-is-not-just-about-privacy/. 
+- privacy movemeent and why it is important
+
+Rainie, Lee. “Americans' Complicated Feelings about Social Media in an Era of Privacy Concerns.” Pew Research Center, Pew Research Center, 17 Aug. 2020, https://www.pewresearch.org/fact-tank/2018/03/27/americans-complicated-feelings-about-social-media-in-an-era-of-privacy-concerns/
+- how americans feel about their data
+
+Sacks, Samm. “A Movement for Personal Data Protection from Tech Giants Rises in China ...” A MOVEMENT FOR PERSONAL DATA PROTECTION FROM TECH GIANTS RISES IN CHINA, 19 Feb. 2019, https://psmag.com/social-justice/chinese-citizens-are-pushing-for-data-privacy. 
+- chinese citizens are pushing for data privacy while americans still seem as of they dont care
+- how american companeis take data from other countires, including america
+
+https://www.osano.com/articles/data-privacy-laws 
+- the american data policy that is being signed, although we have data protection laws, nothing is being done to enforce the law allowing major companies to take data from you to better sell you something. this can be seen in data brokers that have their data stolen and nobody seems to care enough, like yahoo and linkedin [https://www.csoonline.com/article/2130877/the-biggest-data-breaches-of-the-21st-century.html]
+
+https://www.osano.com/articles/adppa
+- about the policy
+
+
+talk about eu legislation, how it happened, social movements that happen, how they connect
+why we should have legislation here, show its happening in other countires
+show importance with data breaches, negatives about data breaches
