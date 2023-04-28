@@ -29,3 +29,5 @@ so far, nothing as im just planning everything
 ## what i would do differently
 
 if i was given extra time, i would have organized the given inforamtion better and i would have coded the entire site in typescript
+i wouldn't have change my idea for the entire website a 3 days before it was due casuing me to double my work load jsut beacuse i didn't like it, like something just felt off about it
+i would like to have the time to be able to include javascript to enable a unique feeling to my website, from stalling sections that force you to scroll more than you think to image that seem to be stuck in the background using true js. Maybe i would gamble my time and try 3 animations or custom images to make my website mine. until i try again, these will only be lofty goals.

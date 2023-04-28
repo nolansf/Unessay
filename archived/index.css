@@ -133,27 +133,30 @@ h1 {
 	height: 100vh;
 }
 
-.cards {
-    padding: 5%;
+.main {
+    margin: 5%;
+    height: 100vw;
 }
 
-.flex .card {
-    height: 80%;
-    width: 300px;
+.heading {
+    line-height: 1.15;
+    font-size: 1.25em;
+}
+
+.cards:nth-child(1) {
+    height: 10%;
+}
+
+.cards:nth-child(2) {
+    height: 50%;
+}
+
+.cards .card {
+    width: 15%;
     border-radius: 50px;
     background: linear-gradient(145deg, #f0f0f0, #cacaca);
     box-shadow:  20px 20px 40px #bebebe, -20px -20px 40px #ffffff;
-    padding: 3%;
-}
-
-.main .sizing{
-    height: auto;
-    width: 30%;
-}
-
-.text{
-    border: 1px solid black;
-    margin: 5%;
+    padding: 5%;
 }
 
 
@@ -187,8 +190,21 @@ h1 {
 
 }
 
+/* stops parallax effect */
 @media only screen and (max-device-width: 1024px) {
     .bg {
         background-attachment: scroll;
+    }
+}
+
+/* changes for small screen */
+@media only screen and (max-width: 700px) {
+    .flex {
+        display: block;
+    }
+
+    .cards .card{
+        right: 50%;
+        margin-top: 10%;
     }
 }
