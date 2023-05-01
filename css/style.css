@@ -10,22 +10,14 @@ body {
 }
 
 /* navigation */
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FFF;
-    height: 3vh;
-    padding-bottom: 2px;
-}
-
 label .menu {
+    --length: 200px;
     position: fixed; 
-    right: -100px;
-    top: -100px;
+    right: calc(var(--length)/-2);
+    top: calc(var(--length)/-2);
     z-index: 100;
-    width: 200px;
-    height: 200px;
+    width: var(--length);
+    height: var(--length);
     background: #FFF;
     border-radius: 50%;
     -webkit-transition: .5s ease-in-out;
@@ -35,11 +27,12 @@ label .menu {
 }
   
 label .hamburger {
-    position: absolute ;
+    position: absolute;
     top: 135px;
     left: 50px;
     width: 30px;
     height: 2px;
+    z-index: 100;
     background: #69D2e7;
     display: block;
     -webkit-transform-origin: center;
@@ -111,44 +104,30 @@ label ul {
 }
   
 label a {
+    font-size: 2em;
     margin-bottom: 1em;
     display: block;
     color: #000;
 }
 
 .nav-link {
-    color: red;
+    color: black;
     text-decoration: none;
 }
 
 .nav-link:hover {
+    color: rgb(0, 68, 255) !important;
     text-decoration: underline;
 }
 
 
 .nav-link:active {
-    color: greenyellow;
+    color: greenyellow !important;
     text-decoration: underline;
 }
 
 .nav-link:visited {
     color: purple;
-}
-
-/* section */
-section {
-    height: 100vh;
-    width: 100vw;
-}
-
-section {
-    background-color: #e0e0e0;
-}
-
-.flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 /* Footer */
@@ -159,7 +138,8 @@ footer {
     justify-content: center;
 }
 
-.bar {
+.footer::before {
+    content: "";
     height: 2px;
     width: 80%; 
     background-color: black;
