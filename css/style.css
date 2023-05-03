@@ -91,8 +91,8 @@ label input:checked + .menu + ul {
 }
   
 label ul {
-    z-index: 200;
-    position: absolute;
+    z-index: 100;
+    position: fixed;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -131,22 +131,56 @@ label a {
 }
 
 /* Footer */
+
 footer {
-    height: 15vh;
-    width: 100%;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e5e5e5;
+    padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+footer .footer-left {
+    display: flex;
+    align-items: center;
+}
+  
+footer .footer-left h3 {
+    margin: 0;
+    font-size: 18px;
 }
 
-.footer::before {
-    content: "";
+footer .footer-right hr {
     height: 2px;
-    width: 80%; 
+    border: none;
     background-color: black;
-    margin: 15px;
- }
+}
+  
+footer .footer-right ul {
+    list-style-type: none;
+    margin: 0 3px;
+    padding: 0;
+    display: flex;
+}
+  
+footer .footer-right ul li {
+    margin: 3px 10px;
+}
+  
+footer .footer-right ul li a {
+    color: #333;
+    text-decoration: none;
+}
+  
+footer .footer-right hr {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 0;
+    width: 100%;
+}
 
- @media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 1024px) {
     .bg {
         background-attachment: scroll;
     }
