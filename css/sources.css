@@ -1,0 +1,21 @@
+.source {
+    text-indent: 0.5in;
+}
+
+.source-link {
+    text-decoration: none;
+    color: #555;
+}
+
+.source-link:hover {
+    text-decoration: underline;
+    color: #0044ff;
+}
+
+.source-link:active {
+    color: yellowgreen;
+}
+
+.source-link:visited {
+    color: lightseagreen;
+}
