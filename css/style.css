@@ -235,6 +235,10 @@ section {
     justify-content: center;
 }
 
+.img-container img {
+    max-width: 90%;
+}
+
 .two-neu-desc {
     display: flex;
     flex-direction: row;
@@ -259,6 +263,10 @@ section {
     .neum-desc-left,
     .neum-desc-right {
       width: 100%;
+    }
+
+    .img-container img {
+        display: none;
     }
 }
 
